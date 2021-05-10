@@ -37,6 +37,14 @@ a {
   cursor: pointer;
 }
 
+.bottom-line {
+  height: 2.7px;
+  width: 6rem;
+  background: #1a1514;
+  display: block;
+  margin: 0 auto 2rem auto;
+}
+
 /* first nav */
 #main-nav {
   padding: 1rem 2.5rem;
@@ -88,8 +96,7 @@ a {
 
 /* Home Section */
 /* Home Section A */
-#home-a {
-}
+
 .header-background {
   position: absolute;
   width: 1280px;
@@ -144,4 +151,34 @@ a {
 
 .header-button > a:hover {
   opacity: 0.5;
+}
+
+/* Home Section B */
+#home-b {
+  margin: 1.9rem 0;
+}
+.section-title {
+  font-size: 2.2rem;
+  color: #1a1514;
+}
+
+.our-services {
+  display: flex;
+}
+
+.ourserviceA {
+  display: flex;
+  flex-direction: column;
+}
+
+.ourserviceA > img {
+  width: 20rem;
+  height: 10rem;
+}
+
+.ourserviceB {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: red;
 }
