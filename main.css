@@ -45,11 +45,13 @@ a {
   background: #1a1514;
   display: block;
   margin: 0 auto 2rem auto;
+  opacity: 0.8;
 }
 
 .section-title {
   font-size: 2.2rem;
   color: #1a1514;
+  opacity: 0.8;
 }
 
 /* first nav */
@@ -350,6 +352,7 @@ a {
 }
 
 .grid {
+  margin-top: 3.5rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   grid-gap: 20px;
@@ -399,4 +402,22 @@ a {
 
 .admin p {
   color: #10804f;
+}
+
+/* Section H */
+#home-h {
+  margin-top: 7rem;
+}
+#home-h .logos {
+  display: flex;
+  align-items: baseline;
+  gap: 4.5rem;
+  justify-content: center;
+}
+
+#home-h img {
+  width: 10rem;
+  height: 10rem;
+  filter: grayscale(100%);
+  opacity: 0.6;
 }
