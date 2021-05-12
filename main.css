@@ -286,7 +286,6 @@ a {
 /* Home section E */
 #home-e {
   margin: 0.7rem 0;
-  margin-bottom: 5rem;
 }
 
 .item {
@@ -320,4 +319,28 @@ a {
   opacity: 1;
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+/* Section F  */
+#home-f {
+  margin: 5.7rem 0;
+}
+#home-f .stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #20384c;
+  color: #fff;
+}
+#home-f .stats li {
+  line-height: 2;
+}
+#home-f .stats li.stats-title {
+  font-size: 1.1rem;
+}
+#home-f .stats li.stats-number {
+  font-size: 3rem;
+  font-weight: bold;
+}
+#home-f .stats div {
+  padding: 3rem 0;
 }
