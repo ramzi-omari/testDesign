@@ -223,3 +223,60 @@ a {
 .choose-usA:nth-child(2) > h2 {
   margin-top: 1rem;
 }
+
+/* Home Section D */
+#contact {
+  padding: 5rem 1.5rem;
+  margin: auto;
+  margin-bottom: 4rem;
+  overflow: hidden;
+  background-color: #20384c;
+  color: #fff;
+  font-weight: 550;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-items {
+  display: flex;
+  gap: 2rem;
+}
+
+.contact-flex {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: flex-start;
+  width: 25rem;
+  color: #fff;
+}
+#contact .bottom-line {
+  background: #fff;
+}
+#contact .section-title {
+  color: #fff;
+}
+
+#contact .text-fields {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-areas:
+    "name phone"
+    "email button"; */
+  gap: 1.2rem;
+  margin-bottom: 1.2rem;
+  justify-items: start;
+}
+#contact .text-fields > *:last-child {
+  width: 9rem;
+  background-color: #43816e;
+  color: #fff;
+  border: none;
+}
+
+#contact .text-fields > input {
+  padding: 1rem 1rem;
+  width: 20rem;
+  border-radius: 0px;
+}
