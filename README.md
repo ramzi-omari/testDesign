@@ -4,6 +4,7 @@
 
 ## result in the link bellow
 
-[result](ram-csshtml-website.netlify.app)
+[result](https://ram-csshtml-website.netlify.app/)
 
 > NB: viewport width bug (after hosting) not fixed yet
+> mobile responsiveness: NOT YET
