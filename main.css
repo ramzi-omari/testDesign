@@ -555,22 +555,37 @@ a {
   color: #fff;
   padding: 3rem;
   font-size: 80%;
+  width: 1280px;
+  align-self: center;
 }
 .footer {
   display: flex;
   text-align: start;
-  gap: 1rem;
+  gap: 3rem;
+  align-content: center;
+  justify-content: space-between;
 }
 .footer article {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
+.footer article:first-child img {
+  width: 170px;
+}
 .footer:first-child article {
-  width: 15%;
+  width: 35%;
+}
+.footer article:first-child p {
+  line-height: 1.8rem;
+}
+.footer article h3 {
+  font-size: larger;
+  line-height: 60px;
+  padding-bottom: 0rem;
 }
 
-.ul-li ul {
+.company ul {
   column-count: 2;
   column-gap: 10px;
   line-height: 2rem;
@@ -592,13 +607,18 @@ a {
 .galery-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(2, 3fr);
+  grid-template-columns: repeat(3, 2fr);
+}
+.galery-grid img {
+  max-width: 80px;
+  height: 90px;
 }
 
 #home-l {
-  padding: 1.1rem;
-  margin-bottom: 3rem;
+  padding: 1.1rem 3rem;
   background-color: #082135;
   font-size: 15px;
   color: #fff;
+  width: 1280px;
+  align-self: center;
 }
