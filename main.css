@@ -114,7 +114,8 @@ a {
   position: absolute;
   width: 1280px;
   height: 22vh;
-  background: url(/images/section1bg.jpg) no-repeat center right / cover;
+  background: url(/images/Optimized-section1bg.jpg) no-repeat center right /
+    cover;
   filter: invert(31%) sepia(60%) saturate(454%) hue-rotate(164deg)
     brightness(53%) contrast(100%);
 
