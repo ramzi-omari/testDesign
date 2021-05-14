@@ -151,7 +151,7 @@ a {
 }
 
 .header-button > a:first-child {
-  background-color: #43816e;
+  background-color: #319b76;
 }
 .header-button > a:last-child {
   background-color: #fff;
@@ -274,7 +274,7 @@ a {
 }
 #contact .text-fields > *:last-child {
   width: 9rem;
-  background-color: #43816e;
+  background-color: #319b76;
   color: #fff;
   border: none;
 }
@@ -391,7 +391,7 @@ a {
 }
 .card-flex button {
   margin-top: 1rem;
-  background-color: #10804f;
+  background-color: #319b76;
   color: #fff;
   padding: 0.5rem 0.5rem;
   width: 10rem;
@@ -401,7 +401,7 @@ a {
 }
 
 .admin p {
-  color: #10804f;
+  color: #319b76;
 }
 
 /* Section H */
@@ -510,5 +510,40 @@ a {
   margin-top: 4.5rem;
 }
 .line:first-child {
-  background-color: #10804f;
+  background-color: #319b76;
+}
+
+/* Section J */
+#home-j {
+  margin: 3rem;
+}
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.sign-up p {
+  width: 50%;
+  opacity: 0.8;
+  font-size: 13px;
+}
+.subscribe {
+  display: flex;
+}
+.subscribe button {
+  width: 10rem;
+  background-color: #319b76;
+  color: #fff;
+  border: none;
+  font-weight: 550;
+  font-size: 0.8rem;
+  padding: 1.2rem;
+}
+
+.subscribe input {
+  width: 35rem;
+  border-color: #319b76;
+  padding-left: 1rem;
 }
