@@ -206,14 +206,9 @@ a {
 }
 
 .choose-us {
-  /* display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 5rem;
-  align-items: stretch; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 3rem;
-  padding: 0 2rem;
 }
 
 .choose-usA {
@@ -436,14 +431,6 @@ a {
   color: #fff;
   font-weight: 550;
   font-size: 0.8rem;
-  /* 
-  padding: 4rem 0rem;
-  margin-bottom: 4rem;
-  overflow: hidden;
-  background-color: #082135;
-  color: #fff;
-  font-weight: 550;
-  font-size: 0.8rem; */
 }
 #home-i h2 {
   color: #fff;
