@@ -1,2 +1,131 @@
 @media (max-width: 500px) {
+  .btn {
+    margin-top: unset;
+    font-size: 0.7rem;
+  }
+  .header-left {
+    display: none;
+  }
+  #second-nav img {
+    width: 90px;
+    height: 50px;
+  }
+  #second-nav > ul {
+    display: none;
+  }
+  .header-content {
+    padding-bottom: 2rem;
+  }
+  .header-content > h1 {
+    font-size: 1.5rem;
+  }
+  .header-content > p {
+    font-size: 1.1rem;
+  }
+
+  /* Section B */
+  #home-b {
+    margin-bottom: 2rem;
+  }
+  .our-services {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 1.5rem;
+  }
+
+  .ourserviceA > img {
+    height: 170px;
+  }
+  .text {
+    padding: 15px;
+  }
+
+  /* Section C */
+  .choose-us {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .choose-usA h2 {
+    font-size: 1rem;
+  }
+  .choose-usA:nth-child(2) > h2 {
+    margin: unset;
+  }
+
+  /* Section Contact */
+  .contact-items {
+    gap: 2rem;
+  }
+  #contact .contact-flex > p {
+    width: 80%;
+  }
+  #contact .text-fields {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+  #contact .text-fields > input {
+    width: unset;
+  }
+
+  /* Section F */
+  #home-f .stats li.stats-number {
+    font-size: 2rem;
+  }
+  #home-f .stats li.stats-title {
+    font-size: 0.8rem;
+  }
+
+  /* Section G */
+  #home-g .grid {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 1rem;
+  }
+  /* Section H */
+  #home-h .logos {
+    flex-wrap: wrap;
+  }
+
+  /* Section I */
+  .testimonials {
+    flex-direction: column;
+  }
+  /* Section J */
+  .subscribe input {
+    width: 10rem;
+    padding-left: 2px;
+  }
+  .subscribe button {
+    width: 6rem;
+    padding: 0.8rem;
+    font-size: 0.7rem;
+  }
+
+  /* Section K */
+  #home-k {
+    padding: 1rem;
+  }
+  .footer {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    justify-content: center;
+  }
+  .footer:first-child article {
+    width: unset;
+  }
+
+  .footer article {
+  }
+
+  .footer article:first-child p {
+    width: 100%;
+  }
+  .footer article:first-child img {
+    width: 130px;
+    align-self: center;
+  }
+  .footer article:nth-child(2) {
+    align-self: center;
+  }
+  #home-l {
+    font-size: 12px;
+  }
 }
