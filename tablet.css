@@ -1,5 +1,122 @@
 @media (max-width: 800px) {
-  p {
-    color: yellow;
+  /* Utilities */
+  .btn {
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.5rem;
+    font-size: 1rem;
+  }
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  /* Header */
+  #main-nav {
+    padding: 1rem 0.5rem;
+  }
+  .header-left {
+    font-size: 0.8rem;
+    gap: 0px;
+  }
+  #main-nav {
+    justify-content: center;
+  }
+  #second-header {
+    /* Humberger menu */
+  }
+
+  .header-content h1 {
+    font-size: 2.3rem;
+  }
+  .header-content p {
+    font-size: 1.4rem;
+  }
+
+  .our-services {
+    gap: 10px;
+    padding: 0 0.2rem;
+  }
+
+  /* Section C */
+  #home-c {
+    margin: 0rem 1.5rem 3rem;
+  }
+  .choose-us {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .choose-usA {
+    padding: 10px;
+  }
+  .choose-usA > img {
+    width: 50%;
+  }
+
+  /* Contact Section */
+  .contact-items {
+    flex-direction: column;
+  }
+  .contact-flex {
+    width: unset;
+    align-items: center;
+  }
+  .contact-flex .bottom-line {
+    margin: auto 0rem 1.5rem 0rem;
+  }
+  #contact .text-fields {
+    margin: 0 1rem 1.2rem;
+  }
+
+  /* Section G */
+  #home-g .grid {
+    font-size: 70%;
+  }
+  /* Section H */
+  #home-h {
+    margin-top: 4rem;
+  }
+  #home-h .logos {
+    gap: 3.5rem;
+  }
+  #home-h img {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  /* Section I */
+  #home-i {
+    margin-bottom: 1rem;
+  }
+  .testi-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .testi-grid p {
+    width: auto;
+    text-align: center;
+  }
+  .testimonials article:nth-child(2) .testi-grid {
+    transform: unset;
+  }
+  .testimonials article:nth-child(2) .testi-grid h3,
+  .testimonials article:nth-child(2) .testi-grid h6,
+  .testimonials article:nth-child(2) .testi-grid p {
+    transform: unset;
+    text-align: center;
+  }
+  /* Section J */
+  .sign-up p {
+    width: 70%;
+  }
+  .subscribe input {
+    width: 20rem;
+  }
+  #home-j .btn {
+    margin: unset;
+  }
+
+  .footer article:last-child {
+    display: none;
   }
 }
