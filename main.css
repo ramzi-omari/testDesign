@@ -12,9 +12,9 @@ body {
 
 /* utilities */
 .container {
-  max-width: 1280px;
-  padding: 0 1.5rem;
-  margin: auto;
+  max-width: 100vw;
+  padding: 0;
+  margin: 0;
   overflow: hidden;
 }
 
@@ -112,7 +112,7 @@ a {
 
 .header-background {
   position: absolute;
-  width: 1280px;
+  width: 99vw;
   height: 22vh;
   background: url(/images/Optimized-section1bg.jpg) no-repeat center right /
     cover;
@@ -130,11 +130,12 @@ a {
   padding-top: 10%;
   padding-bottom: 10%;
   z-index: -1;
+  overflow: hidden;
 }
 
 .header-content {
   padding-top: 12%;
-  padding-bottom: 15%;
+  padding-bottom: 5rem;
   z-index: 9999;
   color: #fff;
   display: flex;
@@ -165,7 +166,7 @@ a {
 
 /* Home Section B */
 #home-b {
-  margin: 0.7rem 0;
+  margin: 4rem 0;
 }
 .section-title {
   font-size: 2.2rem;
@@ -174,9 +175,9 @@ a {
 
 .our-services {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
-  align-items: stretch;
+  padding: 0 5rem;
 }
 
 .ourserviceA {
@@ -201,15 +202,18 @@ a {
 
 /* Home Section C */
 #home-c {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin: 4rem;
 }
 
 .choose-us {
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 5rem;
-  align-items: stretch;
+  align-items: stretch; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 3rem;
+  padding: 0 2rem;
 }
 
 .choose-usA {
@@ -229,21 +233,20 @@ a {
 
 /* Home Section D */
 #contact {
-  padding: 5rem 1.5rem;
-  margin: auto;
+  padding: 4rem 0rem;
   margin-bottom: 4rem;
   overflow: hidden;
   background-color: #082135;
   color: #fff;
   font-weight: 550;
   font-size: 0.8rem;
-  display: flex;
-  justify-content: space-between;
 }
 
 .contact-items {
   display: flex;
   gap: 3rem;
+  align-content: center;
+  justify-content: center;
 }
 
 .contact-flex {
@@ -281,7 +284,7 @@ a {
 }
 
 #contact .text-fields > input {
-  padding: 1rem 1rem;
+  padding: 0.7rem 1rem;
   width: 20rem;
   border-radius: 0px;
 }
@@ -353,11 +356,11 @@ a {
 }
 
 .grid {
-  margin-top: 3.5rem;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 3.5rem;
   grid-gap: 20px;
-  align-items: stretch;
+  padding: 0 5rem;
 }
 .grid img {
   max-width: 100%;
@@ -426,14 +429,21 @@ a {
 
 /* Home Section I */
 #home-i {
-  padding: 5rem 1.5rem;
-  margin: auto;
+  padding: 5rem 1rem;
   margin-bottom: 4rem;
   overflow: hidden;
   background-color: #20384c;
   color: #fff;
   font-weight: 550;
   font-size: 0.8rem;
+  /* 
+  padding: 4rem 0rem;
+  margin-bottom: 4rem;
+  overflow: hidden;
+  background-color: #082135;
+  color: #fff;
+  font-weight: 550;
+  font-size: 0.8rem; */
 }
 #home-i h2 {
   color: #fff;
@@ -444,7 +454,9 @@ a {
 .testimonials {
   margin-top: 3.5rem;
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .testi-grid {
@@ -453,9 +465,8 @@ a {
   box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
   display: grid;
 
-  grid-template-columns: 150px 150px 150px 150px;
+  grid-template-columns: 150px 135px 150px 150px;
   grid-template-rows: auto;
-  grid-column-gap: 5px;
   grid-row-gap: 10px;
   grid-template-areas:
     "image name"
@@ -556,7 +567,6 @@ a {
   color: #fff;
   padding: 3rem;
   font-size: 80%;
-  width: 1280px;
   align-self: center;
 }
 .footer {
@@ -620,6 +630,4 @@ a {
   background-color: #082135;
   font-size: 15px;
   color: #fff;
-  width: 1280px;
-  align-self: center;
 }
